@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Define a function make_multiplier"""
 from typing import Callable
-from audioop import mul
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
